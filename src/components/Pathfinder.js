@@ -30,11 +30,13 @@ class Pathfinder extends Component {
       nodes: nodes,
     });
   };
+
   async componentDidMount() {
     await this.createGrid();
 
     console.log(this.state);
   }
+
   render() {
     return (
       <div className="Pathfinder">
