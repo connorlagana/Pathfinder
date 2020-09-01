@@ -2,6 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: blue;
+  height: 100vh;
+  width: 100vw;
 }
 
 .grid {
@@ -11,14 +14,23 @@
   /* flex-wrap: wrap; */
   height: 90vh;
   width: 90vw;
-  /* background-color: brown; */
+  background-color: brown;
 }
 
-#Node {
+.node {
   height: 1.2vh;
   width: 1.2vh;
   /* background-color: aqua; */
   /* margin: 1vh; */
   border: solid black;
   border-width: 0.1vh;
+  background-color: hotpink;
+}
+
+.node-start {
+  background-color: green;
+}
+
+.node-finish {
+  background-color: red;
 }
